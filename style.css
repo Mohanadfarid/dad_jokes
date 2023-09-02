@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #686de0;
+  padding: 10px;
+}
+.container h4 {
+  letter-spacing: 3px;
+  opacity: 0.5;
+}
+.container {
+  background-color: white;
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%);
+}
+#joke_holder {
+  font-size: 25px;
+  max-width: 800px;
+  padding: 20px;
+}
+.btn {
+  background-color: #9f68e0;
+  border: 0;
+  padding: 10px 25px;
+  margin: 20px 0;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%);
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:active {
+  transform: scale(0.98);
+}
